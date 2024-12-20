@@ -1,0 +1,87 @@
+@rendermode InteractiveServer
+
+@* TODO: Ajouter boutons supprimer et modifier *@
+
+<div class="todo-container">
+    <div class="todo-header">
+        @if (IsInit)
+        {
+            <h3>@Title</h3>
+        }
+        else
+        {
+            <div class="add-todo-btn">
+                <input type="text" class="new-todo" placeholder="Ex: Monday" @bind-value="@Title" @bind-value:event="oninput" @onkeydown="SetIsInit">
+            </div>
+        }
+    </div>
+    <div class="todo-body">
+        @foreach (var todo in Todos)
+        {
+            <div class="todo-item" @onclick="@(() => {todo.IsComplete = !todo.IsComplete; })">
+                <input id="@todo.Id" @bind="@todo.IsComplete" type="checkbox" >
+                <span class="todo-description @(todo.IsComplete ? "done" : "")">@todo.Description</span>
+            </div> 
+        }
+        @if (!Todos.Any())
+        {
+            <p class="nothing-todo">Nothing todo.</p>
+        }
+    </div>
+    <div class="todo-footer">
+        @if (AddNewTodo)
+        {
+            <div class="add-todo-btn">
+                <input type="text" class="new-todo" placeholder="Ex: Do laundry" @bind-value="@NewTodoText" @bind-value:event="oninput" @onkeydown="HandleInput">
+                <div @onclick="@(() => { AddNewTodo = !AddNewTodo; })">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                        <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+                    </svg>
+                </div>
+            </div>
+        }
+        else
+        {
+            <div class="add-todo-btn" @onclick="@(() => { AddNewTodo = !AddNewTodo; })">
+                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/>
+                </svg>
+                <p>Add new todo</p>
+            </div>
+        }
+    </div>
+    
+</div>
+
+@code 
+{
+    private bool AddNewTodo { get; set; }
+    private string NewTodoText { get; set; } = "";
+    
+    [Parameter]
+    public List<Todo> Todos { get; set; } = new List<Todo>() { };
+    
+    [Parameter]
+    public bool IsInit { get; set; }
+
+    private string Title { get; set; } = "";
+    
+    private void HandleInput(KeyboardEventArgs e)
+    {
+        if (e.Key != "Enter" || NewTodoText == "")
+        {
+            return;
+        }
+        Todos.Add(new Todo(Todos.Count(), 1, NewTodoText));
+        NewTodoText = "";
+        AddNewTodo = false;
+    }
+
+    private void SetIsInit(KeyboardEventArgs e)
+    {
+        if (e.Key == "Enter" && Title != "")
+        {
+            IsInit = true;
+        }
+    }
+}
