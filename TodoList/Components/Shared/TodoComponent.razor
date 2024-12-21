@@ -3,10 +3,10 @@
 <div class="todo-container">
     @* ---------------- HEADER ---------------- *@
     <div class="todo-header">
-        @if (IsInit)
+        @if (IsTitleInit)
         {
             <h3>@Todolist.Title</h3>
-            <DropdownComponent OnDelete="DeleteSelf" OnEdit="@(() => { IsInit = false; } )"/>
+            <DropdownComponent OnDelete="DeleteSelf" OnEdit="@(() => { IsTitleInit = false; } )"/>
         }
         else
         {
@@ -15,7 +15,7 @@
                 _titleInputRef.FocusAsync();
             });
             <div class="add-todo-btn">
-                <input type="text" class="new-todo" placeholder="Ex: Monday" @bind-value="@Todolist.Title" @bind-value:event="oninput" @onkeydown="SetIsInit" @ref="_titleInputRef">
+                <input type="text" class="new-todo" placeholder="Ex: Monday" @bind-value="@Todolist.Title" @bind-value:event="oninput" @onkeydown="SetIsTitleInit" @ref="_titleInputRef">
             </div>
         }
     </div>
@@ -58,10 +58,14 @@
 
 @code 
 {
+    // Composant qui contient plusieurs tâches.
+    // Todolist : contient les données de la liste de tâches.
+    // IsTitleInit : booléen permettant de toggle l'édition du titre.
+    // OnDelete : Appelle la méthode du parent qui supprime la liste de tâches.
+    
     private bool AddNewTodo { get; set; }
     private string NewTodoText { get; set; } = "";
     
-    // private bool IsDropdownOpen { get; set; }
     private ElementReference _newTodoRef;
     private ElementReference _titleInputRef;
     
@@ -69,7 +73,7 @@
     public required Todolist Todolist { get; set; }
 
     [Parameter] 
-    public bool IsInit { get; set; } = false;
+    public bool IsTitleInit { get; set; } = false;
     
     [Parameter]
     public required EventCallback<int> OnDelete { get; set; }
@@ -85,11 +89,11 @@
         AddNewTodo = false;
     }
 
-    private void SetIsInit(KeyboardEventArgs e )
+    private void SetIsTitleInit(KeyboardEventArgs e )
     {
         if (e.Key == "Enter" && Todolist.Title != "")
         {
-            IsInit = true;
+            IsTitleInit = true;
         }
     }
     
