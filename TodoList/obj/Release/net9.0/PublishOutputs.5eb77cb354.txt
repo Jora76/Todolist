@@ -1,0 +1,7 @@
+/home/zone01/DIV01/dotnet/TodoList/publish/TodoList
+/home/zone01/DIV01/dotnet/TodoList/publish/appsettings.Development.json
+/home/zone01/DIV01/dotnet/TodoList/publish/appsettings.json
+/home/zone01/DIV01/dotnet/TodoList/publish/TodoList.dll
+/home/zone01/DIV01/dotnet/TodoList/publish/TodoList.deps.json
+/home/zone01/DIV01/dotnet/TodoList/publish/TodoList.runtimeconfig.json
+/home/zone01/DIV01/dotnet/TodoList/publish/TodoList.pdb

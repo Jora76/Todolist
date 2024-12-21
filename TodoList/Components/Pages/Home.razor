@@ -18,7 +18,7 @@
             <div class="todolist-container">
                 @foreach (var todolist in Todolists)
                 {
-                    <TodoComponent Todolist="@todolist" IsInit="@(todolist.Title != "")" OnDelete="HandleTodolistDelete"/>
+                    <TodoComponent Todolist="@todolist" IsTitleInit="@(todolist.Title != "")" OnDelete="HandleTodolistDelete"/>
                 }
             </div>
     </div>

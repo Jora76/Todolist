@@ -1,0 +1,7 @@
+/home/zone01/DIV01/TodoList
+/home/zone01/DIV01/appsettings.Development.json
+/home/zone01/DIV01/appsettings.json
+/home/zone01/DIV01/TodoList.dll
+/home/zone01/DIV01/TodoList.deps.json
+/home/zone01/DIV01/TodoList.runtimeconfig.json
+/home/zone01/DIV01/TodoList.pdb
