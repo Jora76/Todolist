@@ -76,5 +76,8 @@
 /home/zone01/DIV01/dotnet/TodoList/TodoList/obj/Debug/net9.0/ref/TodoList.dll
 /home/zone01/DIV01/dotnet/TodoList/TodoList/obj/Debug/net9.0/scopedcss/Components/Pages/Home.razor.rz.scp.css
 /home/zone01/DIV01/dotnet/TodoList/TodoList/obj/Debug/net9.0/scopedcss/Components/Shared/TodoComponent.razor.rz.scp.css
-/home/zone01/DIV01/dotnet/TodoList/TodoList/obj/Debug/net9.0/compressed/wcds5tzs3r-lvmoz8lz55.gz
-/home/zone01/DIV01/dotnet/TodoList/TodoList/obj/Debug/net9.0/compressed/3uihfjv17l-lvmoz8lz55.gz
+/home/zone01/DIV01/dotnet/TodoList/TodoList/obj/Debug/net9.0/TodoList.sourcelink.json
+/home/zone01/DIV01/dotnet/TodoList/TodoList/obj/Debug/net9.0/scopedcss/Components/Shared/TodoItem.razor.rz.scp.css
+/home/zone01/DIV01/dotnet/TodoList/TodoList/obj/Debug/net9.0/scopedcss/Components/Shared/DropdownComponent.razor.rz.scp.css
+/home/zone01/DIV01/dotnet/TodoList/TodoList/obj/Debug/net9.0/compressed/wcds5tzs3r-5smkfzhdy7.gz
+/home/zone01/DIV01/dotnet/TodoList/TodoList/obj/Debug/net9.0/compressed/3uihfjv17l-5smkfzhdy7.gz

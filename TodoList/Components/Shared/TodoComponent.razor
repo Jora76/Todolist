@@ -1,39 +1,42 @@
 @rendermode InteractiveServer
 
-@* TODO: Ajouter boutons supprimer et modifier *@
-
 <div class="todo-container">
+    @* ---------------- HEADER ---------------- *@
     <div class="todo-header">
         @if (IsInit)
         {
-            <h3>@Title</h3>
+            <h3>@Todolist.Title</h3>
+            <DropdownComponent OnDelete="DeleteSelf" OnEdit="@(() => { IsInit = false; } )"/>
         }
         else
         {
+            _ = Task.Delay(1).ContinueWith(_ =>
+            {
+                _titleInputRef.FocusAsync();
+            });
             <div class="add-todo-btn">
-                <input type="text" class="new-todo" placeholder="Ex: Monday" @bind-value="@Title" @bind-value:event="oninput" @onkeydown="SetIsInit">
+                <input type="text" class="new-todo" placeholder="Ex: Monday" @bind-value="@Todolist.Title" @bind-value:event="oninput" @onkeydown="SetIsInit" @ref="_titleInputRef">
             </div>
         }
     </div>
+    @* ---------------- BODY ---------------- *@
     <div class="todo-body">
-        @foreach (var todo in Todos)
+        @foreach (var todo in Todolist.Todos)
         {
-            <div class="todo-item" @onclick="@(() => {todo.IsComplete = !todo.IsComplete; })">
-                <input id="@todo.Id" @bind="@todo.IsComplete" type="checkbox" >
-                <span class="todo-description @(todo.IsComplete ? "done" : "")">@todo.Description</span>
-            </div> 
+            <TodoItem Todo="todo" OnDelete="HandleTodoDelete"/>
         }
-        @if (!Todos.Any())
+        @if (!Todolist.Todos.Any())
         {
             <p class="nothing-todo">Nothing todo.</p>
         }
     </div>
+    @* ---------------- FOOTER ---------------- *@
     <div class="todo-footer">
         @if (AddNewTodo)
         {
             <div class="add-todo-btn">
-                <input type="text" class="new-todo" placeholder="Ex: Do laundry" @bind-value="@NewTodoText" @bind-value:event="oninput" @onkeydown="HandleInput">
-                <div @onclick="@(() => { AddNewTodo = !AddNewTodo; })">
+                <input type="text" class="new-todo" placeholder="Ex: Do laundry" @bind-value="@NewTodoText" @bind-value:event="oninput" @onkeydown="HandleInput" @ref="_newTodoRef">
+                <div @onclick="() => { AddNewTodo = false;}">
                     <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
                         <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
                     </svg>
@@ -42,7 +45,7 @@
         }
         else
         {
-            <div class="add-todo-btn" @onclick="@(() => { AddNewTodo = !AddNewTodo; })">
+            <div class="add-todo-btn" @onclick="HandleNewTodo">
                 <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/>
                 </svg>
@@ -50,7 +53,7 @@
             </div>
         }
     </div>
-    
+
 </div>
 
 @code 
@@ -58,13 +61,18 @@
     private bool AddNewTodo { get; set; }
     private string NewTodoText { get; set; } = "";
     
-    [Parameter]
-    public List<Todo> Todos { get; set; } = new List<Todo>() { };
+    // private bool IsDropdownOpen { get; set; }
+    private ElementReference _newTodoRef;
+    private ElementReference _titleInputRef;
     
     [Parameter]
-    public bool IsInit { get; set; }
+    public required Todolist Todolist { get; set; }
 
-    private string Title { get; set; } = "";
+    [Parameter] 
+    public bool IsInit { get; set; } = false;
+    
+    [Parameter]
+    public required EventCallback<int> OnDelete { get; set; }
     
     private void HandleInput(KeyboardEventArgs e)
     {
@@ -72,16 +80,36 @@
         {
             return;
         }
-        Todos.Add(new Todo(Todos.Count(), 1, NewTodoText));
+        Todolist.Todos.Add(new Todo(Todolist.Todos.Count(), 1, NewTodoText));
         NewTodoText = "";
         AddNewTodo = false;
     }
 
-    private void SetIsInit(KeyboardEventArgs e)
+    private void SetIsInit(KeyboardEventArgs e )
     {
-        if (e.Key == "Enter" && Title != "")
+        if (e.Key == "Enter" && Todolist.Title != "")
         {
             IsInit = true;
         }
+    }
+    
+    protected void HandleTodoDelete(int id)
+    {
+        Todolist.Todos.RemoveAt(id);
+        StateHasChanged();
+    }
+
+    private void HandleNewTodo()
+    {
+        AddNewTodo = true;
+        _ = Task.Delay(1).ContinueWith(_ =>
+        {
+            _newTodoRef.FocusAsync();
+        });
+    }
+    
+    private void DeleteSelf()
+    {
+        OnDelete.InvokeAsync(Todolist.Id);
     }
 }

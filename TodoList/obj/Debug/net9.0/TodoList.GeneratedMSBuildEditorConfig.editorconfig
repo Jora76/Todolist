@@ -44,6 +44,14 @@ build_metadata.AdditionalFiles.CssScope = b-cby7h2eybj
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Ib21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-44bz175vw9
 
+[/home/zone01/DIV01/dotnet/TodoList/TodoList/Components/Shared/DropdownComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9TaGFyZWQvRHJvcGRvd25Db21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-yoigd5gbud
+
 [/home/zone01/DIV01/dotnet/TodoList/TodoList/Components/Shared/TodoComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9TaGFyZWQvVG9kb0NvbXBvbmVudC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-rw10or0uy8
+
+[/home/zone01/DIV01/dotnet/TodoList/TodoList/Components/Shared/TodoItem.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9TaGFyZWQvVG9kb0l0ZW0ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-pli3i9z48y

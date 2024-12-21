@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CVwOLApjGZ1GkMDfptoRdqVNyxYpApSyAC6RaRIiNhU=",
+  "Hash": "LoYezkBdoAF8AKaLo6DLmiygJu5QZU8t9WS4Rf1kUXI=",
   "Source": "TodoList",
   "BasePath": "_content/TodoList",
   "Mode": "Default",
@@ -101,12 +101,12 @@
       "OriginalItemSpec": "/home/zone01/DIV01/dotnet/TodoList/TodoList/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
-      "Identity": "/home/zone01/DIV01/dotnet/TodoList/TodoList/obj/Debug/net9.0/compressed/3uihfjv17l-lvmoz8lz55.gz",
+      "Identity": "/home/zone01/DIV01/dotnet/TodoList/TodoList/obj/Debug/net9.0/compressed/3uihfjv17l-5smkfzhdy7.gz",
       "SourceId": "TodoList",
       "SourceType": "Computed",
       "ContentRoot": "/home/zone01/DIV01/dotnet/TodoList/TodoList/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/TodoList",
-      "RelativePath": "TodoList#[.{fingerprint=lvmoz8lz55}]!.bundle.scp.css.gz",
+      "RelativePath": "TodoList#[.{fingerprint=5smkfzhdy7}]!.bundle.scp.css.gz",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Alternative",
@@ -115,8 +115,8 @@
       "RelatedAsset": "/home/zone01/DIV01/dotnet/TodoList/TodoList/obj/Debug/net9.0/scopedcss/projectbundle/TodoList.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "wqvaps8a8l",
-      "Integrity": "yJdKUiUyyo7D5GQWUEV5RuMyifNXl9LvAdHFkGX+Kc4=",
+      "Fingerprint": "iztgqdtoab",
+      "Integrity": "znkhqjeGzqdszwVmOByQC9ydFc/2KJKk/KqJyKdo1pY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/zone01/DIV01/dotnet/TodoList/TodoList/obj/Debug/net9.0/scopedcss/projectbundle/TodoList.bundle.scp.css"
@@ -920,12 +920,12 @@
       "OriginalItemSpec": "/home/zone01/DIV01/dotnet/TodoList/TodoList/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map"
     },
     {
-      "Identity": "/home/zone01/DIV01/dotnet/TodoList/TodoList/obj/Debug/net9.0/compressed/wcds5tzs3r-lvmoz8lz55.gz",
+      "Identity": "/home/zone01/DIV01/dotnet/TodoList/TodoList/obj/Debug/net9.0/compressed/wcds5tzs3r-5smkfzhdy7.gz",
       "SourceId": "TodoList",
       "SourceType": "Computed",
       "ContentRoot": "/home/zone01/DIV01/dotnet/TodoList/TodoList/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/TodoList",
-      "RelativePath": "TodoList#[.{fingerprint=lvmoz8lz55}]?.styles.css.gz",
+      "RelativePath": "TodoList#[.{fingerprint=5smkfzhdy7}]?.styles.css.gz",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
@@ -934,8 +934,8 @@
       "RelatedAsset": "/home/zone01/DIV01/dotnet/TodoList/TodoList/obj/Debug/net9.0/scopedcss/bundle/TodoList.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "wqvaps8a8l",
-      "Integrity": "yJdKUiUyyo7D5GQWUEV5RuMyifNXl9LvAdHFkGX+Kc4=",
+      "Fingerprint": "iztgqdtoab",
+      "Integrity": "znkhqjeGzqdszwVmOByQC9ydFc/2KJKk/KqJyKdo1pY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/zone01/DIV01/dotnet/TodoList/TodoList/obj/Debug/net9.0/scopedcss/bundle/TodoList.styles.css"
@@ -1018,8 +1018,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "lvmoz8lz55",
-      "Integrity": "L0PQ7QmJ3fSUGrnlXRl9XkGLseFRwxx6Vw5s2f+5Evc=",
+      "Fingerprint": "5smkfzhdy7",
+      "Integrity": "qyS1tmTkGuXBpveHaVU3I4wLwYB4/C376/7P/Wa0nDc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/zone01/DIV01/dotnet/TodoList/TodoList/obj/Debug/net9.0/scopedcss/bundle/TodoList.styles.css"
@@ -1039,8 +1039,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "lvmoz8lz55",
-      "Integrity": "L0PQ7QmJ3fSUGrnlXRl9XkGLseFRwxx6Vw5s2f+5Evc=",
+      "Fingerprint": "5smkfzhdy7",
+      "Integrity": "qyS1tmTkGuXBpveHaVU3I4wLwYB4/C376/7P/Wa0nDc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/zone01/DIV01/dotnet/TodoList/TodoList/obj/Debug/net9.0/scopedcss/projectbundle/TodoList.bundle.scp.css"
@@ -15506,13 +15506,13 @@
       ]
     },
     {
-      "Route": "TodoList.bundle.scp.css",
-      "AssetFile": "/home/zone01/DIV01/dotnet/TodoList/TodoList/obj/Debug/net9.0/compressed/3uihfjv17l-lvmoz8lz55.gz",
+      "Route": "TodoList.5smkfzhdy7.bundle.scp.css",
+      "AssetFile": "/home/zone01/DIV01/dotnet/TodoList/TodoList/obj/Debug/net9.0/compressed/3uihfjv17l-5smkfzhdy7.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000723589001"
+          "Quality": "0.000574712644"
         }
       ],
       "ResponseHeaders": [
@@ -15522,19 +15522,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1381"
+          "Value": "1739"
         },
         {
           "Name": "ETag",
-          "Value": "\"yJdKUiUyyo7D5GQWUEV5RuMyifNXl9LvAdHFkGX+Kc4=\""
+          "Value": "\"znkhqjeGzqdszwVmOByQC9ydFc/2KJKk/KqJyKdo1pY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Dec 2024 18:15:25 GMT"
+          "Value": "Sat, 21 Dec 2024 17:06:10 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -15550,18 +15550,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"L0PQ7QmJ3fSUGrnlXRl9XkGLseFRwxx6Vw5s2f+5Evc=\""
+          "Value": "W/\"qyS1tmTkGuXBpveHaVU3I4wLwYB4/C376/7P/Wa0nDc=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "5smkfzhdy7"
+        },
+        {
+          "Name": "label",
+          "Value": "TodoList.bundle.scp.css"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-L0PQ7QmJ3fSUGrnlXRl9XkGLseFRwxx6Vw5s2f+5Evc="
+          "Value": "sha256-qyS1tmTkGuXBpveHaVU3I4wLwYB4/C376/7P/Wa0nDc="
         }
       ]
     },
     {
-      "Route": "TodoList.bundle.scp.css",
+      "Route": "TodoList.5smkfzhdy7.bundle.scp.css",
       "AssetFile": "/home/zone01/DIV01/dotnet/TodoList/TodoList/obj/Debug/net9.0/scopedcss/projectbundle/TodoList.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -15571,7 +15579,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5831"
+          "Value": "7929"
         },
         {
           "Name": "Content-Type",
@@ -15579,121 +15587,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"L0PQ7QmJ3fSUGrnlXRl9XkGLseFRwxx6Vw5s2f+5Evc=\""
+          "Value": "\"qyS1tmTkGuXBpveHaVU3I4wLwYB4/C376/7P/Wa0nDc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Dec 2024 18:15:25 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-L0PQ7QmJ3fSUGrnlXRl9XkGLseFRwxx6Vw5s2f+5Evc="
-        }
-      ]
-    },
-    {
-      "Route": "TodoList.bundle.scp.css.gz",
-      "AssetFile": "/home/zone01/DIV01/dotnet/TodoList/TodoList/obj/Debug/net9.0/compressed/3uihfjv17l-lvmoz8lz55.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1381"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"yJdKUiUyyo7D5GQWUEV5RuMyifNXl9LvAdHFkGX+Kc4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 20 Dec 2024 18:15:25 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-yJdKUiUyyo7D5GQWUEV5RuMyifNXl9LvAdHFkGX+Kc4="
-        }
-      ]
-    },
-    {
-      "Route": "TodoList.lvmoz8lz55.bundle.scp.css",
-      "AssetFile": "/home/zone01/DIV01/dotnet/TodoList/TodoList/obj/Debug/net9.0/compressed/3uihfjv17l-lvmoz8lz55.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000723589001"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1381"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"yJdKUiUyyo7D5GQWUEV5RuMyifNXl9LvAdHFkGX+Kc4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 20 Dec 2024 18:15:25 GMT"
+          "Value": "Sat, 21 Dec 2024 17:06:10 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"L0PQ7QmJ3fSUGrnlXRl9XkGLseFRwxx6Vw5s2f+5Evc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "lvmoz8lz55"
+          "Value": "5smkfzhdy7"
         },
         {
           "Name": "label",
@@ -15701,13 +15609,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-L0PQ7QmJ3fSUGrnlXRl9XkGLseFRwxx6Vw5s2f+5Evc="
+          "Value": "sha256-qyS1tmTkGuXBpveHaVU3I4wLwYB4/C376/7P/Wa0nDc="
         }
       ]
     },
     {
-      "Route": "TodoList.lvmoz8lz55.bundle.scp.css",
-      "AssetFile": "/home/zone01/DIV01/dotnet/TodoList/TodoList/obj/Debug/net9.0/scopedcss/projectbundle/TodoList.bundle.scp.css",
+      "Route": "TodoList.5smkfzhdy7.bundle.scp.css.gz",
+      "AssetFile": "/home/zone01/DIV01/dotnet/TodoList/TodoList/obj/Debug/net9.0/compressed/3uihfjv17l-5smkfzhdy7.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -15716,7 +15624,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5831"
+          "Value": "1739"
         },
         {
           "Name": "Content-Type",
@@ -15724,56 +15632,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"L0PQ7QmJ3fSUGrnlXRl9XkGLseFRwxx6Vw5s2f+5Evc=\""
+          "Value": "\"znkhqjeGzqdszwVmOByQC9ydFc/2KJKk/KqJyKdo1pY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Dec 2024 18:15:25 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "lvmoz8lz55"
-        },
-        {
-          "Name": "label",
-          "Value": "TodoList.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-L0PQ7QmJ3fSUGrnlXRl9XkGLseFRwxx6Vw5s2f+5Evc="
-        }
-      ]
-    },
-    {
-      "Route": "TodoList.lvmoz8lz55.bundle.scp.css.gz",
-      "AssetFile": "/home/zone01/DIV01/dotnet/TodoList/TodoList/obj/Debug/net9.0/compressed/3uihfjv17l-lvmoz8lz55.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1381"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"yJdKUiUyyo7D5GQWUEV5RuMyifNXl9LvAdHFkGX+Kc4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 20 Dec 2024 18:15:25 GMT"
+          "Value": "Sat, 21 Dec 2024 17:06:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15791,7 +15654,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "lvmoz8lz55"
+          "Value": "5smkfzhdy7"
         },
         {
           "Name": "label",
@@ -15799,18 +15662,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-yJdKUiUyyo7D5GQWUEV5RuMyifNXl9LvAdHFkGX+Kc4="
+          "Value": "sha256-znkhqjeGzqdszwVmOByQC9ydFc/2KJKk/KqJyKdo1pY="
         }
       ]
     },
     {
-      "Route": "TodoList.lvmoz8lz55.styles.css",
-      "AssetFile": "/home/zone01/DIV01/dotnet/TodoList/TodoList/obj/Debug/net9.0/compressed/wcds5tzs3r-lvmoz8lz55.gz",
+      "Route": "TodoList.5smkfzhdy7.styles.css",
+      "AssetFile": "/home/zone01/DIV01/dotnet/TodoList/TodoList/obj/Debug/net9.0/compressed/wcds5tzs3r-5smkfzhdy7.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000723589001"
+          "Quality": "0.000574712644"
         }
       ],
       "ResponseHeaders": [
@@ -15820,15 +15683,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1381"
+          "Value": "1739"
         },
         {
           "Name": "ETag",
-          "Value": "\"yJdKUiUyyo7D5GQWUEV5RuMyifNXl9LvAdHFkGX+Kc4=\""
+          "Value": "\"znkhqjeGzqdszwVmOByQC9ydFc/2KJKk/KqJyKdo1pY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Dec 2024 18:15:25 GMT"
+          "Value": "Sat, 21 Dec 2024 17:06:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15848,13 +15711,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"L0PQ7QmJ3fSUGrnlXRl9XkGLseFRwxx6Vw5s2f+5Evc=\""
+          "Value": "W/\"qyS1tmTkGuXBpveHaVU3I4wLwYB4/C376/7P/Wa0nDc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "lvmoz8lz55"
+          "Value": "5smkfzhdy7"
         },
         {
           "Name": "label",
@@ -15862,12 +15725,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-L0PQ7QmJ3fSUGrnlXRl9XkGLseFRwxx6Vw5s2f+5Evc="
+          "Value": "sha256-qyS1tmTkGuXBpveHaVU3I4wLwYB4/C376/7P/Wa0nDc="
         }
       ]
     },
     {
-      "Route": "TodoList.lvmoz8lz55.styles.css",
+      "Route": "TodoList.5smkfzhdy7.styles.css",
       "AssetFile": "/home/zone01/DIV01/dotnet/TodoList/TodoList/obj/Debug/net9.0/scopedcss/bundle/TodoList.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -15877,7 +15740,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5831"
+          "Value": "7929"
         },
         {
           "Name": "Content-Type",
@@ -15885,11 +15748,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"L0PQ7QmJ3fSUGrnlXRl9XkGLseFRwxx6Vw5s2f+5Evc=\""
+          "Value": "\"qyS1tmTkGuXBpveHaVU3I4wLwYB4/C376/7P/Wa0nDc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Dec 2024 18:15:25 GMT"
+          "Value": "Sat, 21 Dec 2024 17:06:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15899,7 +15762,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "lvmoz8lz55"
+          "Value": "5smkfzhdy7"
         },
         {
           "Name": "label",
@@ -15907,13 +15770,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-L0PQ7QmJ3fSUGrnlXRl9XkGLseFRwxx6Vw5s2f+5Evc="
+          "Value": "sha256-qyS1tmTkGuXBpveHaVU3I4wLwYB4/C376/7P/Wa0nDc="
         }
       ]
     },
     {
-      "Route": "TodoList.lvmoz8lz55.styles.css.gz",
-      "AssetFile": "/home/zone01/DIV01/dotnet/TodoList/TodoList/obj/Debug/net9.0/compressed/wcds5tzs3r-lvmoz8lz55.gz",
+      "Route": "TodoList.5smkfzhdy7.styles.css.gz",
+      "AssetFile": "/home/zone01/DIV01/dotnet/TodoList/TodoList/obj/Debug/net9.0/compressed/wcds5tzs3r-5smkfzhdy7.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -15922,7 +15785,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1381"
+          "Value": "1739"
         },
         {
           "Name": "Content-Type",
@@ -15930,11 +15793,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yJdKUiUyyo7D5GQWUEV5RuMyifNXl9LvAdHFkGX+Kc4=\""
+          "Value": "\"znkhqjeGzqdszwVmOByQC9ydFc/2KJKk/KqJyKdo1pY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Dec 2024 18:15:25 GMT"
+          "Value": "Sat, 21 Dec 2024 17:06:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15952,7 +15815,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "lvmoz8lz55"
+          "Value": "5smkfzhdy7"
         },
         {
           "Name": "label",
@@ -15960,18 +15823,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-yJdKUiUyyo7D5GQWUEV5RuMyifNXl9LvAdHFkGX+Kc4="
+          "Value": "sha256-znkhqjeGzqdszwVmOByQC9ydFc/2KJKk/KqJyKdo1pY="
         }
       ]
     },
     {
-      "Route": "TodoList.styles.css",
-      "AssetFile": "/home/zone01/DIV01/dotnet/TodoList/TodoList/obj/Debug/net9.0/compressed/wcds5tzs3r-lvmoz8lz55.gz",
+      "Route": "TodoList.bundle.scp.css",
+      "AssetFile": "/home/zone01/DIV01/dotnet/TodoList/TodoList/obj/Debug/net9.0/compressed/3uihfjv17l-5smkfzhdy7.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000723589001"
+          "Quality": "0.000574712644"
         }
       ],
       "ResponseHeaders": [
@@ -15981,15 +15844,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1381"
+          "Value": "1739"
         },
         {
           "Name": "ETag",
-          "Value": "\"yJdKUiUyyo7D5GQWUEV5RuMyifNXl9LvAdHFkGX+Kc4=\""
+          "Value": "\"znkhqjeGzqdszwVmOByQC9ydFc/2KJKk/KqJyKdo1pY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Dec 2024 18:15:25 GMT"
+          "Value": "Sat, 21 Dec 2024 17:06:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16009,13 +15872,150 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"L0PQ7QmJ3fSUGrnlXRl9XkGLseFRwxx6Vw5s2f+5Evc=\""
+          "Value": "W/\"qyS1tmTkGuXBpveHaVU3I4wLwYB4/C376/7P/Wa0nDc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-L0PQ7QmJ3fSUGrnlXRl9XkGLseFRwxx6Vw5s2f+5Evc="
+          "Value": "sha256-qyS1tmTkGuXBpveHaVU3I4wLwYB4/C376/7P/Wa0nDc="
+        }
+      ]
+    },
+    {
+      "Route": "TodoList.bundle.scp.css",
+      "AssetFile": "/home/zone01/DIV01/dotnet/TodoList/TodoList/obj/Debug/net9.0/scopedcss/projectbundle/TodoList.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7929"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qyS1tmTkGuXBpveHaVU3I4wLwYB4/C376/7P/Wa0nDc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Dec 2024 17:06:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qyS1tmTkGuXBpveHaVU3I4wLwYB4/C376/7P/Wa0nDc="
+        }
+      ]
+    },
+    {
+      "Route": "TodoList.bundle.scp.css.gz",
+      "AssetFile": "/home/zone01/DIV01/dotnet/TodoList/TodoList/obj/Debug/net9.0/compressed/3uihfjv17l-5smkfzhdy7.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1739"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"znkhqjeGzqdszwVmOByQC9ydFc/2KJKk/KqJyKdo1pY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Dec 2024 17:06:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-znkhqjeGzqdszwVmOByQC9ydFc/2KJKk/KqJyKdo1pY="
+        }
+      ]
+    },
+    {
+      "Route": "TodoList.styles.css",
+      "AssetFile": "/home/zone01/DIV01/dotnet/TodoList/TodoList/obj/Debug/net9.0/compressed/wcds5tzs3r-5smkfzhdy7.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000574712644"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1739"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"znkhqjeGzqdszwVmOByQC9ydFc/2KJKk/KqJyKdo1pY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Dec 2024 17:06:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"qyS1tmTkGuXBpveHaVU3I4wLwYB4/C376/7P/Wa0nDc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qyS1tmTkGuXBpveHaVU3I4wLwYB4/C376/7P/Wa0nDc="
         }
       ]
     },
@@ -16030,7 +16030,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5831"
+          "Value": "7929"
         },
         {
           "Name": "Content-Type",
@@ -16038,11 +16038,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"L0PQ7QmJ3fSUGrnlXRl9XkGLseFRwxx6Vw5s2f+5Evc=\""
+          "Value": "\"qyS1tmTkGuXBpveHaVU3I4wLwYB4/C376/7P/Wa0nDc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Dec 2024 18:15:25 GMT"
+          "Value": "Sat, 21 Dec 2024 17:06:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16052,13 +16052,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-L0PQ7QmJ3fSUGrnlXRl9XkGLseFRwxx6Vw5s2f+5Evc="
+          "Value": "sha256-qyS1tmTkGuXBpveHaVU3I4wLwYB4/C376/7P/Wa0nDc="
         }
       ]
     },
     {
       "Route": "TodoList.styles.css.gz",
-      "AssetFile": "/home/zone01/DIV01/dotnet/TodoList/TodoList/obj/Debug/net9.0/compressed/wcds5tzs3r-lvmoz8lz55.gz",
+      "AssetFile": "/home/zone01/DIV01/dotnet/TodoList/TodoList/obj/Debug/net9.0/compressed/wcds5tzs3r-5smkfzhdy7.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -16067,7 +16067,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1381"
+          "Value": "1739"
         },
         {
           "Name": "Content-Type",
@@ -16075,11 +16075,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yJdKUiUyyo7D5GQWUEV5RuMyifNXl9LvAdHFkGX+Kc4=\""
+          "Value": "\"znkhqjeGzqdszwVmOByQC9ydFc/2KJKk/KqJyKdo1pY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Dec 2024 18:15:25 GMT"
+          "Value": "Sat, 21 Dec 2024 17:06:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16097,7 +16097,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-yJdKUiUyyo7D5GQWUEV5RuMyifNXl9LvAdHFkGX+Kc4="
+          "Value": "sha256-znkhqjeGzqdszwVmOByQC9ydFc/2KJKk/KqJyKdo1pY="
         }
       ]
     }
